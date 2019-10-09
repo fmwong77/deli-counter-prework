@@ -7,7 +7,7 @@ def line(katz_deli)
     message = "The line is currently:"
     line = ""
     while i < katz_deli.size do
-      line = " #{i+1}. #{katz_deli[i]}"
+      line = line + " #{i+1}. #{katz_deli[i]}"
       i += 1
     end
     
