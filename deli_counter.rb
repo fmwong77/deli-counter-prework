@@ -22,6 +22,10 @@ end
 
 def now_serving(katz_deli)
   now_serving = katz_deli.shift
-  puts "currently serving #{now_serving}."
+  
+  if katz_deli.size == 0
+    puts
+  else
+    puts "currently serving #{now_serving}."
 end
 
